@@ -15,4 +15,5 @@ The possible arguments are:
 The arguments must be provided in order and the lasts ones are optional:
 
 -Valid convinations are: none, 1, 12, 123.
+
 -Invalid convinations are: 2, 23, 13, etc.

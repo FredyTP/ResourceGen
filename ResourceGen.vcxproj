@@ -141,13 +141,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ClassCode.cpp" />
     <ClCompile Include="FileItem.cpp" />
     <ClCompile Include="FileTree.cpp" />
     <ClCompile Include="ResourceGen.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ClassCode.h" />
+    <ClInclude Include="CppCodeGen.h" />
     <ClInclude Include="FileItem.h" />
     <ClInclude Include="FileTree.h" />
+    <ClInclude Include="ResCodeGenerator.h" />
+    <ClInclude Include="x64_autogen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

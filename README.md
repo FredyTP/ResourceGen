@@ -5,7 +5,7 @@ ResourceGen is a lightweight script for generation of code that contains an stru
 
 IT ONLY SUPPORTS OUTPUT FOR C++ and JAVA, BUT MORE LANGUAGES WILL BE ADDED SOON.
 
-The script can be called with no arguments. Then it creates the code for the folder it is contained and the output is in the same folder.
+The script can be called with no arguments. Then it creates the code in C++ for the folder it is contained and the output is in the same folder.
 
 The possible arguments are:
 1. Language output: C++ -> "cpp", Java -> "java".

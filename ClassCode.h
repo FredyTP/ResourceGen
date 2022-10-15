@@ -20,7 +20,7 @@ public:
         this->coding = _coding;
         this->naming = _naming;
     }
-    void generateCode(const FileTree* folder,std::filesystem::path outputFolder)
+    void generateCode(const FileTree* folder, std::filesystem::path outputFolder)
     {
        //getFolderPath
        const auto &path = folder->root()->absolutePath();
@@ -28,7 +28,7 @@ public:
        //Create code file name
        const auto outputpath = outputFolder;
 
-       string code_name = path.filename().string() + "_autogen.h";
+       string code_name = naming->getCodeFileName(folder);
        std::cout << outputpath.generic_string() << std::endl;
        //open file name and set the location
        code.open(outputFolder.generic_string() + "/" + code_name, std::ios::trunc);

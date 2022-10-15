@@ -145,4 +145,10 @@ public:
         return this->isAbsolute? file->absolutePath().generic_string() :file->relativePath().generic_string();
     };
 
+    virtual std::string getCodeFileName(const FileTree* folder)
+    {
+        string code_name = folder->root()->absolutePath().filename().string() + "_gen.h";
+        return code_name;
+    };
+
 };

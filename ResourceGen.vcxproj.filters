@@ -47,5 +47,8 @@
     <ClInclude Include="CppCodeGen.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="JavaCodeGen.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

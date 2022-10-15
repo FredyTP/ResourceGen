@@ -151,6 +151,7 @@
     <ClInclude Include="CppCodeGen.h" />
     <ClInclude Include="FileItem.h" />
     <ClInclude Include="FileTree.h" />
+    <ClInclude Include="JavaCodeGen.h" />
     <ClInclude Include="ResCodeGenerator.h" />
     <ClInclude Include="x64_autogen.h" />
   </ItemGroup>

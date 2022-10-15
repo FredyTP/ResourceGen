@@ -36,3 +36,12 @@ public:
 protected:
 
 };
+
+class CppFileName : public ResFileName
+{
+public:
+    CppFileName(bool _absolute = false) : ResFileName(_absolute)
+    {
+
+    }
+};
